@@ -2,15 +2,26 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/Users/jpi22110/Documents/Development/Personal Development/DPhotography/user/config/site.yaml',
-    'modified' => 1521187085,
+    'modified' => 1521212116,
     'data' => [
-        'title' => 'Grav',
+        'title' => 'DPhotography',
+        'default_lang' => 'en',
         'author' => [
-            'name' => 'Joe Bloggs',
-            'email' => 'joe@test.com'
+            'name' => 'Dragana Pijnappel',
+            'email' => 'draganapijnappeldjenisov@gmail.com'
         ],
-        'metadata' => [
-            'description' => 'Grav is an easy to use, yet powerful, open source flat-file CMS'
+        'taxonomies' => [
+            0 => 'category',
+            1 => 'tag'
+        ],
+        'summary' => [
+            'enabled' => true,
+            'format' => 'short',
+            'size' => 300,
+            'delimiter' => '==='
+        ],
+        'blog' => [
+            'route' => '/blog'
         ]
     ]
 ];

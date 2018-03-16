@@ -1,8 +1,8 @@
 <?php
 return [
     '@class' => 'Grav\\Common\\Config\\CompiledConfig',
-    'timestamp' => 1521210102,
-    'checksum' => '2e3036337a57e59308095dd49dbc32f0',
+    'timestamp' => 1521212826,
+    'checksum' => 'cb73272ac338f95031fd0a53b9a0b4a7',
     'files' => [
         'user/config' => [
             'media' => [
@@ -15,7 +15,7 @@ return [
             ],
             'site' => [
                 'file' => 'user/config/site.yaml',
-                'modified' => 1521210102
+                'modified' => 1521212116
             ],
             'streams' => [
                 'file' => 'user/config/streams.yaml',
@@ -23,11 +23,11 @@ return [
             ],
             'system' => [
                 'file' => 'user/config/system.yaml',
-                'modified' => 1521209948
+                'modified' => 1521212826
             ],
             'themes/grayscale' => [
                 'file' => 'user/config/themes/grayscale.yaml',
-                'modified' => 1521209861
+                'modified' => 1521212562
             ]
         ],
         'system/config' => [
@@ -45,7 +45,7 @@ return [
             ],
             'system' => [
                 'file' => 'system/config/system.yaml',
-                'modified' => 1521187085
+                'modified' => 1521212010
             ]
         ],
         'user/plugins' => [
@@ -520,7 +520,7 @@ return [
             ]
         ],
         'site' => [
-            'title' => 'Grav',
+            'title' => 'DPhotography',
             'default_lang' => 'en',
             'author' => [
                 'name' => 'Dragana Pijnappel',
@@ -647,7 +647,7 @@ return [
                 'etag' => false,
                 'vary_accept_encoding' => false,
                 'redirect_default_route' => false,
-                'redirect_default_code' => 302,
+                'redirect_default_code' => '302',
                 'redirect_trailing_slash' => true,
                 'ignore_files' => [
                     0 => '.DS_Store'
@@ -708,7 +708,7 @@ return [
                 ]
             ],
             'errors' => [
-                'display' => true,
+                'display' => '1',
                 'log' => true
             ],
             'debugger' => [

@@ -2,7 +2,7 @@
 return [
     '@class' => 'Grav\\Common\\File\\CompiledYamlFile',
     'filename' => 'C:/Users/jpi22110/Documents/Development/Personal Development/DPhotography/system/config/system.yaml',
-    'modified' => 1521187085,
+    'modified' => 1521212010,
     'data' => [
         'absolute_urls' => false,
         'timezone' => '',
