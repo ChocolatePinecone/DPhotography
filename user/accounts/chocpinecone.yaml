@@ -1,0 +1,11 @@
+email: chocolatepinecone@gmail.com
+fullname: 'Jelmer Pijnappel'
+title: Administrator
+state: enabled
+access:
+  admin:
+    login: true
+    super: true
+  site:
+    login: true
+hashed_password: $2y$10$Sh6rxmzQuvyIUldT8ERrBOxcg48ckPtk0YvZA21blDPvpI/N3HI8a
