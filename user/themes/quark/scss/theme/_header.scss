@@ -7,15 +7,15 @@
   font-size: 0.7rem;
   font-weight: 700;
 
-  background: $light-color;
+  background: $header-color-dark;
   color: $dark-color;
 
   a {
-    color: $dark-color;
+    color: rgba($light-color, 0.7);
   }
 
   .logo svg path {
-    fill: $header-color-dark;
+    fill: $header-text-light;
   }
 
   .header-dark &:not(.scrolled) {
@@ -50,7 +50,7 @@
   }
 
   .logo svg {
-    width: 150px;
+    width: 300px;
     display: inherit;
 
     @extend .default-animation;
@@ -74,7 +74,7 @@ body.header-fixed.header-animated {
     }
 
     .logo svg {
-      width: 100px;
+      width: 200px;
     }
 
     ~ .mobile-menu .button_container {

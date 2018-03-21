@@ -10,8 +10,7 @@
 
 .mobile-logo {
   svg {
-    max-width: 150px;
-    margin-top: 1rem;
+    max-width: 300px;
     margin-left: 1.4rem;
 
     path {
@@ -144,6 +143,7 @@
       display: block;
       margin-left: 1.2rem;
       font-size: 1rem;
+      color: rgba($light-color, 0.7);
 
       &:hover, &:focus, &.active {
         color: $primary-color-light !important;

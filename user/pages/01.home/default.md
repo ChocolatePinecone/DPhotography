@@ -1,8 +1,7 @@
 ---
-title: home
+title: Home
+menu: Home
 ---
-
-The [Quark theme](https://github.com/getgrav/grav-theme-quark) is the new default theme for Grav built with [Spectre.css](https://picturepan2.github.io/spectre/) the lightweight, responsive and modern CSS framework. Spectre provides  basic styles for typography, elements, and a responsive layout system that utilizes best practices and consistent language design.
 
 ### Headings
 
@@ -27,7 +26,7 @@ The [Quark theme](https://github.com/getgrav/grav-theme-quark) is the new defaul
 
 ### Paragraphs
 
-Lorem ipsum dolor sit amet, consectetur [adipiscing elit. Praesent risus leo, dictum in vehicula sit amet](#), feugiat tempus tellus. Duis quis sodales risus. Etiam euismod ornare consequat.
+Lorem ipsum dolor sit amet, consectetur [adipiscing elit. Praesent risus leo, dictum in vehicula sit amet](google.nl), feugiat tempus tellus. Duis quis sodales risus. Etiam euismod ornare consequat.
 
 Climb leg rub face on everything give attitude nap all day for under the bed. Chase mice attack feet but rub face on everything hopped up on goofballs.
 

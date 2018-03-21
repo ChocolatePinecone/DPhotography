@@ -1,0 +1,29 @@
+/*!
+ * Start Bootstrap - Grayscale Bootstrap Theme (http://startbootstrap.com)
+ * Code licensed under the Apache License v2.0.
+ * For details, see http://www.apache.org/licenses/LICENSE-2.0.
+ */
+
+body {
+    background-color: #000;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    color: #fff;
+}
+
+a {
+    color: #42dca3;
+}
+
+a:hover {
+    color: #fff;
+}
+
+p {
+    color: rgba(255, 255, 255, 0.8);
+}
+
+#footer {
+    background-color: #000;
+}
