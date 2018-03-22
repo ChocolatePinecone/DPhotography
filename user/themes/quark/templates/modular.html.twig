@@ -13,7 +13,7 @@
 {% block bottom %}
     {{ parent() }}
     {% if show_onpage_menu %}
-        <script>
+        {#<script>
         // singlePageNav initialization & configuration
         $('ul.navigation').singlePageNav({
             offset: $('#header').outerHeight(),
@@ -21,13 +21,16 @@
             updateHash: true,
             currentClass: 'active'
         });
-        </script>
+        </script>#}
     {% endif %}
 {% endblock %}
 
 {% block header_navigation %}
     {% if show_onpage_menu %}
         <ul class="navigation">
+            {% for page in pages.children.visible %}
+                <li><a href="{{ page.url }}">{{ page.menu }}</a></li>
+            {% endfor %}
         {% for module in page.collection() %}
             {% set current_module = (module.active or module.activeChild) ? 'active' : '' %}
             <li><a class="{{ current_module }}" href="#{{ _self.pageLinkName(module.menu) }}">{{ module.menu }}</a></li>
@@ -40,6 +43,7 @@
                 </a>
             </li>
         {% endfor %}
+
         </ul>
     {% else %}
         {{  parent() }}
