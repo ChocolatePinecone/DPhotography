@@ -1,8 +1,9 @@
 ---
 title: hero
+media_order: intro-bg.jpg
 menu: hero
 visible: true
-media_order: 'lion-fire-desktop-background.jpg,s-l1600.jpg'
+hero_classes: 'hero-fullscreen text-light'
 ---
 
 #Testytest!
