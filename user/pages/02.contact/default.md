@@ -1,5 +1,12 @@
 ---
-title: contact
+title: Contact
+content:
+    items: 
+        - '@root.children'
+        - '@taxonomy':
+            tag: modular
 ---
 
-information here
+Blablablabla information!
+
+contact me never exceptionally when you do.

@@ -12,29 +12,19 @@
 
 {% block bottom %}
     {{ parent() }}
-    {% if show_onpage_menu %}
-        {#<script>
-        // singlePageNav initialization & configuration
-        $('ul.navigation').singlePageNav({
-            offset: $('#header').outerHeight(),
-            filter: ':not(.external)',
-            updateHash: true,
-            currentClass: 'active'
-        });
-        </script>#}
-    {% endif %}
 {% endblock %}
 
 {% block header_navigation %}
     {% if show_onpage_menu %}
         <ul class="navigation">
-            {% for page in pages.children.visible %}
-                <li><a href="{{ page.url }}">{{ page.menu }}</a></li>
-            {% endfor %}
-        {% for module in page.collection() %}
+        {% for page in pages.children %}
+            {% set active_page = (page.active or page.activeChild) ? 'active' : '' %}
+            <li><a href="{{ page.url }}" class="{{ active_page }}">{{ page.menu }}</a></li>
+        {% endfor %}
+        {#{% for module in page.collection() %}
             {% set current_module = (module.active or module.activeChild) ? 'active' : '' %}
             <li><a class="{{ current_module }}" href="#{{ _self.pageLinkName(module.menu) }}">{{ module.menu }}</a></li>
-        {% endfor %}
+        {% endfor %}#}
         {% for mitem in site.menu %}
             <li>
                 <a {% if mitem.class %}class="{{ mitem.class }}"{% endif %} href="{{ mitem.url }}">
