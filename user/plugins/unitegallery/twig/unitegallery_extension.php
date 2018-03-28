@@ -139,11 +139,15 @@ class UniteGalleryTwigExtension extends \Twig_Extension
 
           $meta = $image->meta();
 
+          $output .= '<a href="' . $meta['link'] . '">';
+
           $output .= '<img alt="' . $meta['alt_text'] . '"';
           $output .= ' data-description="' . $meta['description'] . '"';
           $output .= ' src="' . $thumbMedium->url() . '"';
           $output .= ' data-image="' . $image->url() . '"';
           $output .= '>' . PHP_EOL;
+
+          $output .= '</a>' . PHP_EOL;
       }
 
       $output .= '</div>' . PHP_EOL;
