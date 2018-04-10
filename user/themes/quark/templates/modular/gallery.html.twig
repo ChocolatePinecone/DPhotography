@@ -1,3 +1,9 @@
-<div class="modular-row gallery-container {{ page.header.class }}">
-    {{ unite_gallery(page.media.images, '{"gallery_theme":"tiles", "tiles_type": "nested"}') }}
-</div>
+
+
+<section id="modular-features" class="section {{ page.header.class}}">
+        <div class="modular-row gallery-container">
+            {{ unite_gallery(page.media.images, '{
+            "gallery_theme":"slider"
+            }') }}
+        </div>
+</section>
