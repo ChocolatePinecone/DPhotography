@@ -11,10 +11,23 @@ body {
 
 h1, h2, h3, h4, h5, h6 {
     color: #fff;
+    font-family: Montserrat, helvetica neue, Helvetica, Arial, sans-serif;
+    font-weight: 700;
 }
 
 h1 {
     text-transform: uppercase;
+    -webkit-margin-before: 0.67em;
+    -webkit-margin-after: 0.67em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    font-size: 40px;
+}
+
+@media(min-width:768px) {
+    h1 {
+        font-size: 80px;
+    }
 }
 
 a {

@@ -42,7 +42,7 @@ section.section {
 
   &.hero-fullscreen {
     height: 100vh;
-    background-position: bottom;
+    background-position: top;
   }
 
   &.hero-large {
@@ -71,7 +71,6 @@ section.section {
 
   h1 {
     color: $header-text-dark;
-    font-size: 4rem !important;
   }
 
   h2 {

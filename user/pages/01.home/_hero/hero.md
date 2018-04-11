@@ -1,10 +1,9 @@
 ---
 title: hero
-media_order: intro-bg.jpg
+media_order: IMG_20180312_135057_478.jpg
 menu: hero
 visible: true
 hero_classes: 'hero-fullscreen text-light'
-hero_image: intro-bg.jpg
 ---
 
-###DPhotography
+#Dragana Photography
