@@ -1,0 +1,6 @@
+- DPhotography in hoofdletters en groter (check mobile)
+- Onder Hero bij home, latest photos? En/Of social media tags
+- Portefolio optie in menu met subopties alle categorieen
+	- Bij klikken op categorie nieue pagina met zelfde DPhotography logo en auto scroll naar onder met grote slider met categoriefoto's
+	- Geen functie bij klikken op foto uit slider
+	- Geen slide stop bij muis boven slider
