@@ -85,6 +85,7 @@ section.section {
   &.text-light {
     h1 {
       color: $header-text-light;
+      opacity: 0.4;
     }
     h2 {
       color: rgba($header-text-light, 0.8);

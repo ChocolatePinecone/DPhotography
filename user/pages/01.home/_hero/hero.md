@@ -6,4 +6,4 @@ visible: true
 hero_classes: 'hero-fullscreen text-light'
 ---
 
-#Dragana Photography
+#D's Pics
