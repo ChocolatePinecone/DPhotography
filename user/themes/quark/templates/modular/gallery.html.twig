@@ -1,9 +1,16 @@
-
-
-<section id="modular-features" class="section {{ page.header.class}}">
+<section class="section gallery-section {{ page.header.class}}">
         <div class="modular-row gallery-container">
             {{ unite_gallery(page.media.images, '{
-            "gallery_theme":"slider"
+            "gallery_theme":"slider",
+            "gallery_width": 1600,
+            "gallery_height": 800,
+            "gallery_play_interval": 5000,
+            "slider_transition": "fade",
+            "gallery_pause_on_mouseover": false,
+            "slider_enable_arrows": false,
+            "slider_control_swipe": false,
+            "slider_control_zoom": false,
+            "slider_enable_bullets": false
             }') }}
         </div>
 </section>
