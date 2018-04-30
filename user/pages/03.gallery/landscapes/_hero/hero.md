@@ -5,4 +5,3 @@ menu: hero
 hero_classes: 'hero-fullscreen text-light'
 ---
 
-###DPhotography

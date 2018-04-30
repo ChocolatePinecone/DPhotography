@@ -5,5 +5,3 @@ menu: hero
 visible: true
 hero_classes: 'hero-fullscreen text-light'
 ---
-
-#D's Pics

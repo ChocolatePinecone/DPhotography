@@ -15,13 +15,15 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 700;
 }
 
-h1 {
-    text-transform: uppercase;
+h1. h2 {
     -webkit-margin-before: 0.67em;
     -webkit-margin-after: 0.67em;
     -webkit-margin-start: 0px;
     -webkit-margin-end: 0px;
-    font-size: 40px;
+}
+
+h1 {
+    text-transform: uppercase;
 }
 
 a {
@@ -57,12 +59,15 @@ p {
 .gallery-container {
     width: 100%;
     height: 100%;
-    margin: 5% auto 5%;
+    margin: 0 auto 5%;
 }
 
 @media(min-width:768px) {
     h1 {
         font-size: 80px;
+    }
+    h2 {
+        font-size: 55px;
     }
 
     .gallery-container {
