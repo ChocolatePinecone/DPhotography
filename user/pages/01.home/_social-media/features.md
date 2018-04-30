@@ -1,5 +1,6 @@
 ---
 title: 'Social Media'
+class: small
 features:
     -
         icon: 'fa fa-camera-retro'
