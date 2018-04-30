@@ -1,6 +1,7 @@
 - Change Header of mobile menu (Is now still DPhotography)
 - CHange footer: DPhotograpy 2018 -> D's Pics 2018
 - Add contact info and form to send
+- Add/Remove/Update social media links
 
 - Naam bedenken
     - Mogelijke woorden:

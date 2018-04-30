@@ -5,26 +5,3 @@
 {% block content %}
     {{ page.content }}
 {% endblock %}
-
-{% block header_navigation %}
-    {% if show_onpage_menu %}
-        <ul class="navigation">
-        {% for page in page.collection() %}
-            {% if page.visible %}
-                {% set active_page = (page.active or page.activeChild) ? 'active' : '' %}
-                <li><a href="{{ page.url }}" class="{{ active_page }}">{{ page.menu }}</a></li>
-            {% endif %}
-            {% for mitem in site.menu %}
-                <li>
-                    <a {% if mitem.class %}class="{{ mitem.class }}"{% endif %} href="{{ mitem.url }}">
-                        {% if mitem.icon %}<i class="fa fa-{{ mitem.icon }}"></i>{% endif %}
-                        {{ mitem.text }}
-                    </a>
-                </li>
-            {% endfor %}
-        {% endfor %}
-        </ul>
-    {% else %}
-        {{  parent() }}
-    {% endif %}
-{% endblock %}
