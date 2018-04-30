@@ -9,17 +9,19 @@
                 <div class="columns">
                 {% for feature in page.header.features %}
                    <div class="column {{ columns }}">
-                       <div class="feature-icon">
-                           <i class="fa fa-fw {{ feature.icon }}"></i>
-                           {% if feature.header %}
-                               <h6>{{ feature.header }}</h6>
-                           {% endif %}
-                       </div>
-                       <div class="feature-content">
-                           {% if feature.text %}
-                            <p>{{ feature.text }}</p>
-                           {% endif %}
-                       </div>
+                       <a href="{{ feature.link }}">
+                           <div class="feature-icon">
+                               <i class="fa fa-fw {{ feature.icon }}"></i>
+                               {% if feature.header %}
+                                   <h6>{{ feature.header }}</h6>
+                               {% endif %}
+                           </div>
+                           <div class="feature-content">
+                               {% if feature.text %}
+                                <p>{{ feature.text }}</p>
+                               {% endif %}
+                           </div>
+                       </a>
                    </div>
                 {% endfor %}
                 </div>

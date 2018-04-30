@@ -1,6 +1,4 @@
 - Onder Hero bij home, latest photos? En/Of social media tags
-- Portefolio optie in menu met subopties alle categorieen
-	- Bij klikken op categorie nieuwe pagina met zelfde DPhotography logo en auto scroll naar onder met grote slider met categoriefoto's
 
 - Naam bedenken
     - Mogelijke woorden:
