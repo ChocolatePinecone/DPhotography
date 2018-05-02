@@ -1,7 +1,9 @@
 - Change Header of mobile menu (Is now still DPhotography)
-- CHange footer: DPhotograpy 2018 -> D's Pics 2018
-- Add contact info and form to send
-- Add/Remove/Update social media links
+- CHange footer: DPhotograpy 2018 -> Dee's Impressions 2018
+- Add contact info and form to send, remove picture
+- Remove Twitter
+- Add facebook and LinkedIn links
+- Change hero to slideshow with watermark on galleries
 
 - Naam bedenken
     - Mogelijke woorden:
@@ -30,4 +32,4 @@
         Zoom
     - Ideen:
         D's Pics
-        D's Impressions
+        Dee's Impressions

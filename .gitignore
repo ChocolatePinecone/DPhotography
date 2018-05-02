@@ -27,6 +27,7 @@
 
 # Grav
 logs/*
+images/*
 
 # misc
 /.sass-cache
