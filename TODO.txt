@@ -1,7 +1,5 @@
 - Change Header of mobile menu (Is now still DPhotography)
-- CHange footer: DPhotograpy 2018 -> Dee's Impressions 2018
 - Add contact info and form to send, remove picture
-- Remove Twitter
 - Add facebook and LinkedIn links
 - Change hero to slideshow with watermark on galleries
 
