@@ -1,8 +1,8 @@
 enabled: true
-from:
-from_name:
-to:
-to_name:
+from: jelmer.pijnappel@gmail.com
+from_name: Jelmer Pijnappel
+to: jelmer.pijnappel@gmail.com
+to_name: Jelmer Pijnappel
 mailer:
   engine: sendmail
   smtp:
