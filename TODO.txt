@@ -1,5 +1,4 @@
 - Change Header of mobile menu (Is now still DPhotography)
 - Add facebook and LinkedIn links
-- Change hero to slideshow with watermark on galleries
 - Change favicon
 - Setup email for form: https://github.com/getgrav/grav-plugin-email/blob/develop/README.md, and test it.

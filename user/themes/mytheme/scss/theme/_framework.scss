@@ -25,6 +25,10 @@ section.section {
   position: relative;
 }
 
+section.section.hero-gallery {
+  padding: 0;
+}
+
 .overlay-light, .overlay-dark, .overlay-light-gradient, .overlay-dark-gradient {
   z-index: 0;
 }
@@ -85,10 +89,11 @@ section.section {
   &.text-light {
     h1 {
       color: $header-text-light;
-      opacity: 0.4;
+      opacity: 0.5;
     }
-    h2 {
-      color: rgba($header-text-light, 0.8);
+    h2, h3 {
+      color: $header-text-light;
+      opacity: 0.5;
     }
   }
 

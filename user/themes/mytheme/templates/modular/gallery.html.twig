@@ -1,12 +1,9 @@
-<section class="section gallery-section {{ page.header.class}}">
-        <section class="container grid-lg" style="text-align: center">
-                {{ content }}
-        </section>
-        <div class="modular-row gallery-container">
+<section class="section gallery-section {{ page.header.body_classes }}">
+        <div class="modular-row gallery-container {{ page.header.body_classes }}" style="position: relative;">
             {{ unite_gallery(page.media.images, '{
             "gallery_theme":"slider",
-            "gallery_width": 1600,
-            "gallery_height": 800,
+            "gallery_width": 1800,
+            "gallery_height": 1000,
             "gallery_play_interval": 5000,
             "slider_transition": "fade",
             "gallery_pause_on_mouseover": false,
@@ -15,5 +12,12 @@
             "slider_control_zoom": false,
             "slider_enable_bullets": false
             }') }}
+
+            <div class="hero text-light" style="position: absolute; text-align: center; padding: 0; height: 100%; width: 100%; left: 0; top: 0;">
+                {{ content }}
+            </div>
+            <div class="hero text-light" style="position: absolute; text-align: center; padding: 0; right: 0; bottom: 0;">
+                <h3> by {{ site.title }} </h3>
+            </div>
         </div>
 </section>
