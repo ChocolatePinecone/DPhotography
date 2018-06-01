@@ -28,6 +28,7 @@
 # Grav
 logs/*
 images/*
+user/data/contact/*
 
 # misc
 /.sass-cache

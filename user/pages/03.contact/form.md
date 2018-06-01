@@ -36,6 +36,8 @@ form:
     process:
         -
             email:
+                from: "{{ config.plugins.email.from }}"
+                to: "{{ config.plugins.email.to }}"
                 subject: '[Site Contact Form] {{ form.value.name|e }}'
                 body: '{% include ''forms/data.html.twig'' %}'
         -

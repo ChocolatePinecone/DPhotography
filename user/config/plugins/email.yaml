@@ -1,16 +1,16 @@
 enabled: true
 from: jelmer.pijnappel@gmail.com
-from_name: Jelmer Pijnappel
+from_name: 'Jelmer Pijnappel'
 to: jelmer.pijnappel@gmail.com
-to_name: Jelmer Pijnappel
+to_name: 'Jelmer Pijnappel'
 mailer:
   engine: smtp
   smtp:
     server: smtp.gmail.com
     port: 465
     encryption: ssl
-    user: 'jelmer.pijnappel@gmail.com'
-    password: '9Blademan!'
+    user: jelmer.pijnappel@gmail.com
+    password: 9Blademan!
   sendmail:
     bin: '/usr/sbin/sendmail -bs'
 content_type: text/html

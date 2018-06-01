@@ -1,4 +1,5 @@
 - Change Header of mobile menu (Is now still DPhotography)
 - Add facebook and LinkedIn links
 - Change favicon
-- Setup email for form: https://github.com/getgrav/grav-plugin-email/blob/develop/README.md, and test it.
+- Change email to correct address (also on contact page)
+- Set up dragana's email according to Gmail setup step 1 and 2: https://github.com/getgrav/grav-plugin-email
