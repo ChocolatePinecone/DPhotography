@@ -1,6 +1,6 @@
 ---
 title: 'Latest Photos'
-media_order: Digital-Art-Lion-Facets-HD-Wallpapers.jpg
+media_order: IMG_1.jpeg
 ---
 
 #Latest Photos

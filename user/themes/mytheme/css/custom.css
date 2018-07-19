@@ -4,15 +4,19 @@
  * For details, see http://www.apache.org/licenses/LICENSE-2.0.
  */
 
+@font-face{
+    font-family: 'Amiri';
+    src: url(../fonts/Amiri-Regular.ttf);
+}
+
 body {
-    background-color: #000;
-    font-family: Montserrat,helvetica neue,Helvetica,Arial,sans-serif;
+    background-color: #FFFEF7;
+    font-family: Amiri, serif;
 }
 
 h1, h2, h3, h4, h5, h6 {
-    color: #fff;
-    font-family: Montserrat, helvetica neue, Helvetica, Arial, sans-serif;
-    font-weight: 700;
+    color: #454d5d;
+    font-family: Amiri, serif;
 }
 
 h1. h2 {
@@ -45,15 +49,15 @@ h2 {
 }
 
 a {
-    color: #42dca3;
+    color: #514539;
 }
 
 a:hover {
-    color: #fff;
+    color: #000;
 }
 
 p {
-    color: rgba(255, 255, 255, 0.8);
+    color: rgba(69, 77, 93, 0.7);
 }
 
 #header {
@@ -63,7 +67,11 @@ p {
 }
 
 #footer {
-    background-color: #000;
+    background-color: #FFFEF7;
+}
+
+#modular-hero .container {
+    border: 3px solid #fff;
 }
 
 .modular-hero {
@@ -86,6 +94,7 @@ p {
 @media(min-width:768px) {
     h1 {
         font-size: 3rem;
+        letter-spacing: 0.5em;
     }
 
     h2 {

@@ -719,7 +719,7 @@ class AdminBaseController
                     } else {
                         $new_data = $files;
                     }
-                    if ($obj->header()->{$init_key}) {
+                    if (isset($obj->header()->{$init_key})) {
                         $obj->modifyHeader($init_key,
                             array_replace_recursive([], $obj->header()->{$init_key}, $new_data));
                     } else {
@@ -751,7 +751,7 @@ class AdminBaseController
             return false;
         }
 
-        if ($data instanceof Data) {
+        if (method_exists($data, 'blueprints')) {
             $settings = $data->blueprints()->schema()->getProperty($this->post['name']);
         } elseif (method_exists($data, 'getBlueprint')) {
             $settings = $data->getBlueprint()->schema()->getProperty($this->post['name']);
@@ -760,7 +760,7 @@ class AdminBaseController
         if (isset($settings['folder'])) {
             $folder = $settings['folder'];
         } else {
-            $folder = '@self';
+            $folder = 'self@';
         }
 
         // Do not use self@ outside of pages

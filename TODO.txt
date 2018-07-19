@@ -1,3 +1,8 @@
 - Add facebook and LinkedIn links
 - Change email to correct address (also on contact page)
 - Set up dragana's email according to Gmail setup step 1 and 2: https://github.com/getgrav/grav-plugin-email
+
+- Dee's impressions in mobile menu change to logo DP
+- Social media links to black instead of white when hover
+- "by Dragana Photography" in galleries change to logo (test logo watermark middle or in corners)
+- social media text capitals

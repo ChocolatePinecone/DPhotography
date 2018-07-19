@@ -88,12 +88,10 @@ section.section.hero-gallery {
 
   &.text-light {
     h1 {
-      color: $header-text-light;
-      opacity: 0.5;
+      color: $light-color;
     }
     h2, h3 {
-      color: $header-text-light;
-      opacity: 0.5;
+      color: $light-color;
     }
   }
 

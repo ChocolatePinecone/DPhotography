@@ -1,6 +1,6 @@
 <section id="{{ id }}" class="section hero {{ page.header.hero_classes }} {{ page.header.background.parallax ? 'parallax' : '' }}" {% if hero_image %}style="background-image: url({{ hero_image.url }});"{% endif %}>
     <div class="image-overlay"></div>
-    <section class="container {{ grid_size }}" style="text-align: {{ page.header.hero_align|default('center') }}">
+    <section class="container grid-xl" style="text-align: {{ page.header.hero_align|default('center') }}">
         <h1>{{ site.title }}</h1>
         {{ content }}
     </section>

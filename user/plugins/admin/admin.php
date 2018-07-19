@@ -144,6 +144,7 @@ class AdminPlugin extends Plugin
 
         // Only activate admin if we're inside the admin path.
         if ($this->isAdminPath()) {
+            $this->grav['session']->init();
             $this->active = true;
 
             // Set cache based on admin_cache option
@@ -316,6 +317,16 @@ class AdminPlugin extends Plugin
      */
     public function onPagesInitialized()
     {
+        $config = $this->config;
+
+        // Force SSL with redirect if required
+        if ($config->get('system.force_ssl')) {
+            if (!isset($_SERVER['HTTPS']) || $_SERVER['HTTPS'] !== 'on') {
+                $url = 'https://' . $_SERVER['HTTP_HOST'] . $_SERVER['REQUEST_URI'];
+                $this->grav->redirect($url);
+            }
+        }
+
         $this->session = $this->grav['session'];
 
         // Set original route for the home page.

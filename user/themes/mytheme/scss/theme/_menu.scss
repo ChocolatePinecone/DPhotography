@@ -19,7 +19,7 @@
         display: block;
 
         &:hover, &:focus, &.active {
-          color: $dropmenu-hover-text !important;
+          color: $dark-color !important;
         }
 
         &:before {

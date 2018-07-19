@@ -10,7 +10,7 @@ $header-text-light: $light-color;
 $header-text-dark: darken($dark-color, 15%);
 
 // Dropdown Menu
-$dropmenu-bg: #000;
+$dropmenu-bg: #FFFEF7;
 $dropmenu-hover-text: $primary-color;
 $dropmenu-horiz-padding: 20px;
 $dropmenu-vert-padding: 7px;
@@ -18,7 +18,7 @@ $dropmenu-child-padding: 10px;
 $dropmenu-shadow: 0 3px 5px rgba(0, 0, 0, 0.1);
 
 // Mobile Menu
-$mobile-color-main: $primary-color;
+$mobile-color-main: $dark-color;
 $mobile-color-active: #FFF;
 $mobile-color-link: #FFF;
 $mobile-button-height: 27px;
