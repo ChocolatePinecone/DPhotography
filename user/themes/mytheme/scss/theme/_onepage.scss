@@ -24,7 +24,7 @@
 
     .column:hover {
       .feature-icon i {
-        color: $primary-color;
+        color: #000;
       }
     }
 
@@ -41,7 +41,7 @@
         transform: none;
         left: auto;
         top: auto;
-        color: $gray-color;
+        color: $dark-color;
         @extend .default-animation;
 
       }
