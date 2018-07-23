@@ -53,7 +53,8 @@
   }
 
   .logo svg {
-    width: 300px;
+    width: 20vw;
+    height: 20vw;
     display: inherit;
 
     @extend .default-animation;
